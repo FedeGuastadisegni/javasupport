@@ -1,0 +1,1 @@
+This library include some Servlet support classes and a generic Action based Servlet implementation. Any class that subclass `ActionServlet` will just need to provide a `action` that provide implementation. And this `action` will automactically match to your deployed webapp URI as `http://domain/context-name/action-servlet/action-name` format.
